@@ -123,3 +123,14 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 15px;
   color: hsl(220, 15%, 55%);
 }
+
+.attribution {
+  text-align: center;
+  margin: 10px 0 0 0;
+  opacity: 0.5;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2/3;
+  -ms-grid-row: 3;
+  grid-row: 3/3;
+}

@@ -16,7 +16,6 @@
 .card {
 	grid-column: 2/3;
 	grid-row: 2/3;
-
 	width: 320px;
 	height: 497px;
 	background-color:hsl(0, 0%, 100%);
@@ -54,7 +53,13 @@
 		}
 }
 
-.img {
-}
+
 .attribution {
+	text-align: center;
+	margin: 10px 0 0 0;
+	opacity: 0.5;
+	grid-column: 2/3;
+	grid-row: 3/3;
+	
+	
 }
