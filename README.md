@@ -42,22 +42,23 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### What I learned
 
-I tried to position card in center using display:grid and it worked pretty well
+I tried to position card in center using display:grid and it worked pretty well. Also i used preprocessor SASS with custom nullstyle.
 
 
 
 ```html
-<h1>Some HTML code I'm proud of</h1>
+<h1>Some SCSS code I'm proud of</h1>
 ```
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+.wrapper{
+	display: grid;
+	grid-template:1fr 497px 1fr/1fr 320px 1fr;
+	width: 100%;
+	height: 100%;
+	background-color: hsl(212, 45%, 89%);
+	font-family: Outfit;
 }
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
+
 ```
 
 
